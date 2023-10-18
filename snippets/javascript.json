@@ -456,6 +456,19 @@
     "description": "Change the background of a scene",
     "prefix": "sceneBackground"
   },
+  "Search Widget": {
+    "prefix": "SearchWidget",
+    "body": [
+    	"new Search({",
+    	"\tlocationEnabled: false,",
+    	"\tpopupEnabled: false,",
+    	"\tresultGraphicEnabled: false,",
+    	"\tsearchTerm: \"${1:Search for a location}\",",
+    	"\tview: view",
+    	"});",
+     ],
+     "description": "A search bar that gives suggestions through the ArcGIS World Geocoding Service. AMD path: \"esri/widgets/Search\" | ESM path: \"@arcgis/core/widgets/Search.js\""
+    },
   "SimpleFillSymbol": {
     "body": [
       "{",
